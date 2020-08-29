@@ -92,6 +92,18 @@ namespace CreatePdfFile.Controllers
             //Saving the PDF to the MemoryStream
             MemoryStream stream = new MemoryStream();
 
+
+/////////////////////////////////////////////////////////////////////////////
+FileStream imageStream = new FileStream("C:\\Users\\hp\\AppData\\Local\\Temp\\CreatePdfFile_CoreWeb-983162689\\CreatePdfFile\\CreatePdfFile\\images\\Photo.jpg", FileMode.Open, FileAccess.Read);
+            PdfBitmap image = new PdfBitmap(imageStream);
+            //Draw the image
+            graphics.DrawImage(image, 0, 0);
+			//Save the PDF document to stream
+			_ = new MemoryStream();
+			doc.Save(stream);
+
+
+
             document.Save(stream);
 
             //If the position is not set to '0' then the PDF will be empty.
