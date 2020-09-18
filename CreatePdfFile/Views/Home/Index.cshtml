@@ -2,9 +2,9 @@
 	ViewData["Title"] = "Home Page";
 }
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+<!----<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
 
-	@{Html.BeginForm("CreateDocument", "Home", FormMethod.Get);
+	<!--tml.BeginForm("CreateDocument", "Home", FormMethod.Get);
 		{
 			<div>
 				<input type="submit" value="Create Document" style="width:150px;height:27px" />
@@ -13,7 +13,7 @@
 		Html.EndForm();
 	}
 
-</div>
+</div-->
 <br />
 <br />
 
@@ -22,21 +22,50 @@
 	@{Html.BeginForm("CreateDocument1", "Home", FormMethod.Get);
 		{
 		<div>
-			<input type="text"  name="Name"placeholder="Name" />
+
+			<input type="text" name="Name" placeholder="Name" />
 			<br /><br />
-			<input type="text"  name="Date of birth" placeholder="Date of Birth" />
+			<input type="text" name="Date_birth" placeholder="Date of Birth" />
+			<!----label for="text"></!-label> <input class="form-control" name="date" type="date" /-->
 			<br /><br />
 			<input type="text" name="Email" placeholder="Email" />
 			<br /><br />
-			<input type="text"  name="Phone" placeholder="Phone"/>
+			<input type="text" name="Phone" placeholder="Phone" />
 			<br /><br />
-			<input type="text"  name="Address" placeholder="Address" />
+			<input type="text" name="Address" placeholder="Address" />
 			<br /><br />
-			<input type="text"  name="Country"placeholder="Country" />
+			<input type="text" name="Country" placeholder="Country" />
 			<br /><br />
-			<input type="text"  name="State"placeholder="State" />
+			<input type="text" name="State" placeholder="State" />
 			<br /><br />
-			<input type="text" name="City"placeholder="City" /><br /><br />
+			<input type="text" name="City" placeholder="City" />
+			<br /><br />
+			<input type="text" name="Masters_Degree" placeholder="Master Degree" />
+			<br /><br />
+			<input type="text" name="Bachelors_Degree" placeholder="Bachelors_Degree " />
+			<br /><br />
+			<input type="text" name="Higher_secondary" placeholder="Higher secondary" />
+			<br /><br />
+			<input type="text" name="Matriulationlty"placeholder="Matriulationlty" />
+			<br /><br />
+			<input type="text" name="Experience" placeholder="Experience " />
+			<br /><br />
+			<input type="text" name="Achievements" placeholder="Achievements " />
+			<br /><br /> 
+			<input type="text" name="Projects" placeholder="Projects " />
+
+			<br /><br />
+			<input type="text" name="Technical_skills" placeholder="Technical skills" />
+
+			<br /><br />
+			<input type="text" name="Additional_skills" placeholder="Additional skills" />
+
+
+
+
+
+
+
 
 			<input type="submit" value="Create Document" style="width:150px;height:27px" />
 		</div>

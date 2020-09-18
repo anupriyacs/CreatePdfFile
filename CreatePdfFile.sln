@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2003
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatePdfFile", "CreatePdfFile\CreatePdfFile.csproj", "{54378FD3-1504-49CD-9292-592E5AF6CEE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreatePdfFile", "CreatePdfFile\CreatePdfFile.csproj", "{54378FD3-1504-49CD-9292-592E5AF6CEE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FFFA3A6D-D0AB-4ACA-832E-333F5E3BD086}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
